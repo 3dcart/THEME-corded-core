@@ -1054,3 +1054,18 @@ ul.extrapages {
 		display: none;
 	}
 }
+
+
+.top-nav #menulinks li{
+	display:inline-block;
+	margin:0 10px;
+}
+#menulinks{
+	display: block;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.homeCarousel .slides img {
+    width: 100%;
+}
