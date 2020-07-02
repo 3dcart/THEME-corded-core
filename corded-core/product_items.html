@@ -1,5 +1,5 @@
 <div class="product-item" data-catalogid="[catalogid]" data-ajaxcart="1" data-addcart-callback="addcart_callback" data-categoryid="[cat_id]">
-   <div class="pro-content-holder">
+   <div class="pro-content-holder clearfix">
     <div class="img">
         <a href="product.asp?itemid=[catalogid]">
             <img src="[THUMBNAIL]" alt="[name]" class="img-responsive" />
@@ -8,6 +8,7 @@
         <button class="quickview" data-toggle="modal">Quick View</button>
         <!--END: quickview-->
     </div>
+	<div class="product-content">
     <div class="name">
         <a href="product.asp?itemid=[catalogid]">[name]</a>
     </div>
@@ -40,12 +41,15 @@
         <!--END: product_review-->
     </div>
 
-    <div class="action">
-        <a href="add_cart.asp?quick=1&amp;item_id=[catalogid]" class="add-to-cart btn btn-default">
-            <span class="buyitlink-text">[category_buyitlink]</span>
-            <span class="ajaxcart-loader icon-spin2 animate-spin"></span>
-            <span class="ajaxcart-added icon-ok"></span>
-        </a>
-    </div>
+    <!--START: addtocart-->
+	<div class="action">
+		<a href="add_cart.asp?quick=1&amp;item_id=[catalogid]&amp;cat_id=[cat_id]" class="add-to-cart btn btn-default">
+			<span class="buyitlink-text">[category_buyitlink]</span>
+			<span class="ajaxcart-loader icon-spin2 animate-spin"></span>
+			<span class="ajaxcart-added icon-ok"></span>
+		</a>
+	</div>
+	<!--END: addtocart-->
+	</div>
     </div>
 </div>
