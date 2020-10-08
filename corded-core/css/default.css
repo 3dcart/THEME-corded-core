@@ -272,7 +272,9 @@ h1 {
 .top-nav ul li {
     float: none;
     margin-right: 0px;
-    padding-right: 0px
+    padding-right: 0px;
+	display: inline-block;
+	line-height: 50px;
 }
 .top-nav .useraccount ul {
     float: right;
@@ -283,7 +285,10 @@ h1 {
     padding: 0;
 }
 .top-nav ul li a {
-    color: #fff;
+   color: #fff;
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 500;
 }
 
 .site-header {
