@@ -297,7 +297,7 @@ h1 {
 .top-nav ul li {
     float: none;
     margin-right: 0px;
-    padding-right: 0px
+    padding-right: 0px;
 	display: inline-block;
 	line-height: 50px;
 }
@@ -311,7 +311,7 @@ h1 {
 }
 .top-nav ul li a {
     color: #[header_text_color];
-    text-transform: uppercase;
+	text-transform: uppercase;
     padding: 0 15px;
     font-weight: 500;
 }
