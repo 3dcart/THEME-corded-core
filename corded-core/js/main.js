@@ -109,7 +109,7 @@ function moveMenu() {
         respWidth = jQuery(window).width();
     }
 
-    if (respWidth < 767) {
+    if (respWidth < 768) {
         jQuery('#menulinks').appendTo('#mobile-menulinks');
         jQuery('#categories').appendTo('#mobile-categories');
     }
@@ -192,3 +192,6 @@ jQuery(function () {
         }
     });
 });
+setTimeout(function(){
+      $('.antiCls, .antiCls-xs').css("visibility", "visible");
+  }, 800);
